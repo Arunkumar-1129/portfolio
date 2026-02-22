@@ -22,7 +22,7 @@ const AboutSection = () => {
           </h2>
           <div className="w-16 h-1 bg-primary rounded-full mb-8" />
 
-          <p className="text-muted-foreground text-lg max-w-3xl mb-12 leading-relaxed">
+          <p className="text-muted-foreground text-lg mb-12 leading-relaxed">
             I'm a driven problem solver and consistent learner passionate about building real-world applications. Currently pursuing Electronics and Communication Engineering, I’ve focused on mastering full-stack development, backend systems, and AI-powered solutions. I believe in writing clean, scalable code that creates meaningful impact.
           </p>
         </motion.div>

@@ -38,11 +38,12 @@ const ContactSection = () => {
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
+          className="mb-12"
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-2">
             Get In <span className="text-gradient">Touch</span>
           </h2>
-          <div className="w-16 h-1 bg-primary rounded-full mb-12" />
+          <div className="w-16 h-1 bg-primary rounded-full" />
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-12">
@@ -85,13 +86,22 @@ const ContactSection = () => {
           </motion.div>
 
           {/* Form */}
-          <motion.form
+          <motion.div
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            onSubmit={handleSubmit}
-            className="glass-card p-8 space-y-5"
+            className="space-y-4"
           >
+            <div>
+              <h3 className="text-2xl md:text-3xl font-bold mb-1">
+                Let's <span className="text-gradient">Connect</span>
+              </h3>
+              <div className="w-16 h-1 bg-primary rounded-full" />
+            </div>
+            <form
+              onSubmit={handleSubmit}
+              className="glass-card p-8 space-y-5"
+            >
             <div>
               <label className="text-sm text-muted-foreground mb-1.5 block">Name</label>
               <input
@@ -140,7 +150,8 @@ const ContactSection = () => {
                 <><Send size={18} /> Send Message</>
               )}
             </button>
-          </motion.form>
+            </form>
+          </motion.div>
         </div>
       </div>
     </section>
