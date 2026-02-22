@@ -152,12 +152,4 @@ The app will run locally with hot reloading enabled.
 npm run build
 
 The production-ready files will be generated inside the dist folder.
-
-📞 Contact
-Arun Kumar P
-📧 arunkumarakx1129@gmail.com
-📱 +91 6380436268
-
-📄 License
-
 This project is created for personal portfolio purposes.
