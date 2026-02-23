@@ -100,7 +100,12 @@ const ProjectsSection = () => (
           >
             <Github size={16} /> View Code
           </a>
-          <a href="#" className="inline-flex items-center gap-2 px-4 py-2 rounded-lg border border-border text-foreground text-sm hover:border-primary/50 hover:text-primary transition-all">
+          <a
+            href="https://chemical-equipment-visualizer-beige.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-lg border border-border text-foreground text-sm hover:border-primary/50 hover:text-primary transition-all"
+          >
             <ExternalLink size={16} /> Live Demo
           </a>
         </div>
