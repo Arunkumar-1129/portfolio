@@ -25,7 +25,7 @@ const otherProjects = [
     year: "2025",
     desc: "Room allocation automation with maintenance request tracking and role-based access control.",
     tech: ["MySQL", "REST API", "Java", "SpringBoot", "Thymeleaf"],
-    codeUrl: "https://github.com/Arunkumar-1129/Project_Level1",
+    codeUrl: "https://github.com/Arunkumar-1129/HostelRoomAllotment",
   },
   {
     title: "Pipeline Leakage Detection",
