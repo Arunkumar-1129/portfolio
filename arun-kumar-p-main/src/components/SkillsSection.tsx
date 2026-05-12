@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
-import { SiC, SiCplusplus, SiPython, SiJavascript, SiReact, SiDjango, SiSpringboot, SiMysql, SiMongodb, SiPostgresql, SiSqlite, SiFirebase, SiPowerbi, SiCanva, SiGit } from "react-icons/si";
-import { FaJava, FaDatabase, FaTools } from "react-icons/fa";
+import { SiC, SiCplusplus, SiPython, SiJavascript, SiReact, SiDjango, SiSpringboot, SiMysql, SiMongodb, SiPostgresql, SiSqlite, SiFirebase, SiPowerBi, SiCanva, SiGit } from "react-icons/si";
+import { FaJava, FaDatabase, FaTools, FaMicrosoft, FaFileExcel } from "react-icons/fa";
 import { VscCode } from "react-icons/vsc";
-import { TbApi, TbBrandMicrosoftExcel } from "react-icons/tb";
+import { TbApi } from "react-icons/tb";
 import { MdDataObject } from "react-icons/md";
 
 const skills = [
@@ -21,8 +21,7 @@ const skills = [
   { name: "SQLite",      icon: <SiSqlite size={48}       color="#003B57" /> },
   { name: "Firebase",    icon: <SiFirebase size={48}     color="#FFCA28" /> },
   { name: "VS Code",     icon: <VscCode size={48}        color="#007ACC" /> },
-  { name: "Power BI",    icon: <SiPowerbi size={48}      color="#F2C811" /> },
-  { name: "Excel",       icon: <TbBrandMicrosoftExcel size={48} color="#217346" /> },
+  { name: "Excel",       icon: <FaFileExcel size={48}   color="#217346" /> },
   { name: "Canva",       icon: <SiCanva size={48}        color="#00C4CC" /> },
   { name: "Git",         icon: <SiGit size={48}          color="#F05032" /> },
   { name: "DSA",         icon: <MdDataObject size={48}   color="#00BCD4" /> },
