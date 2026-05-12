@@ -4,7 +4,7 @@ import { ExternalLink } from "lucide-react";
 const profiles = [
   {
     name: "LeetCode",
-    stat: "250+ Problems | 17+ Contests",
+    stat: "300+ Problems | 30+ Contests",
     color: "from-amber-500 to-orange-500",
     url: "https://leetcode.com/u/Arun_KumarP/",
   },
