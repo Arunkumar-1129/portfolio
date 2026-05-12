@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { SiC, SiCplusplus, SiPython, SiJavascript, SiReact, SiDjango, SiSpringboot, SiMysql, SiMongodb, SiPostgresql, SiSqlite, SiFirebase, SiPowerBi, SiCanva, SiGit, SiHtml5 } from "react-icons/si";
+import { SiC, SiCplusplus, SiPython, SiJavascript, SiReact, SiDjango, SiSpringboot, SiMysql, SiMongodb, SiPostgresql, SiSqlite, SiFirebase, SiPowerBi, SiCanva, SiGit, SiHtml5, SiCss } from "react-icons/si";
 import { FaJava, FaDatabase, FaTools, FaMicrosoft, FaFileExcel } from "react-icons/fa";
 import { VscCode } from "react-icons/vsc";
 import { TbApi } from "react-icons/tb";
@@ -7,7 +7,7 @@ import { MdDataObject } from "react-icons/md";
 
 const skills = [
   { name: "HTML",           icon: <SiHtml5 size={48}           color="#e76d1b" /> },
-  { name: "C++",         icon: <SiCplusplus size={48}   color="#00599C" /> },
+  { name: "CSS",         icon: <SiCss size={48}   color="#00599C" /> },
   { name: "Java",        icon: <FaJava size={48}         color="#f89820" /> },
   { name: "Python",      icon: <SiPython size={48}       color="#3776AB" /> },
   { name: "JavaScript",  icon: <SiJavascript size={48}   color="#F7DF1E" /> },
