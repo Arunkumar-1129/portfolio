@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { SiC, SiCplusplus, SiPython, SiJavascript, SiReact, SiDjango, SiSpringboot, SiMysql, SiMongodb, SiPostgresql, SiSqlite, SiFirebase, SiPowerBi, SiCanva, SiGit, SiHtml5 } from "react-icons/si";
+import { SiC, SiCplusplus, SiPython, SiJavascript, SiReact, SiDjango, SiSpring, SiMysql, SiMongodb, SiPostgresql, SiSqlite, SiFirebase, SiPowerBi, SiCanva, SiGit, SiHtml5 } from "react-icons/si";
 import { FaJava, FaDatabase, FaTools, FaMicrosoft, FaFileExcel, FaCss3Alt } from "react-icons/fa";
 import { VscCode } from "react-icons/vsc";
 import { TbApi } from "react-icons/tb";
@@ -14,8 +14,8 @@ const skills = [
   { name: "Python",      icon: <SiPython size={48}       color="#3776AB" /> },
   { name: "JavaScript",  icon: <SiJavascript size={48}   color="#F7DF1E" /> },
   
-  { name: "Django",      icon: <SiDjango size={48}       color="#092E20" /> },
-  { name: "SpringBoot",  icon: <SiSpringboot size={48}   color="#6DB33F" /> },
+  { name: "Django",      icon: <SiDjango size={48}       color="#2ec98e" /> },
+  { name: "SpringBoot",  icon: <SiSpring size={48}   color="#6DB33F" /> },
   { name: "MySQL",       icon: <SiMysql size={48}        color="#4479A1" /> },
   { name: "MongoDB",     icon: <SiMongodb size={48}      color="#47A248" /> },
   { name: "PostgreSQL",  icon: <SiPostgresql size={48}   color="#336791" /> },
