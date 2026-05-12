@@ -1,17 +1,19 @@
 import { motion } from "framer-motion";
-import { SiC, SiCplusplus, SiPython, SiJavascript, SiReact, SiDjango, SiSpringboot, SiMysql, SiMongodb, SiPostgresql, SiSqlite, SiFirebase, SiPowerBi, SiCanva, SiGit, SiHtml5, SiCss } from "react-icons/si";
-import { FaJava, FaDatabase, FaTools, FaMicrosoft, FaFileExcel } from "react-icons/fa";
+import { SiC, SiCplusplus, SiPython, SiJavascript, SiReact, SiDjango, SiSpringboot, SiMysql, SiMongodb, SiPostgresql, SiSqlite, SiFirebase, SiPowerBi, SiCanva, SiGit, SiHtml5 } from "react-icons/si";
+import { FaJava, FaDatabase, FaTools, FaMicrosoft, FaFileExcel, FaCss3Alt } from "react-icons/fa";
 import { VscCode } from "react-icons/vsc";
 import { TbApi } from "react-icons/tb";
 import { MdDataObject } from "react-icons/md";
 
 const skills = [
   { name: "HTML",           icon: <SiHtml5 size={48}           color="#e76d1b" /> },
-  { name: "CSS",         icon: <SiCss size={48}   color="#00599C" /> },
+  { name: "CSS",         icon: <FaCss3Alt size={48} color="#264de4" /> },
+  { name: "React",       icon: <SiReact size={48}        color="#61DAFB" /> },
   { name: "Java",        icon: <FaJava size={48}         color="#f89820" /> },
+  
   { name: "Python",      icon: <SiPython size={48}       color="#3776AB" /> },
   { name: "JavaScript",  icon: <SiJavascript size={48}   color="#F7DF1E" /> },
-  { name: "React",       icon: <SiReact size={48}        color="#61DAFB" /> },
+  
   { name: "Django",      icon: <SiDjango size={48}       color="#092E20" /> },
   { name: "SpringBoot",  icon: <SiSpringboot size={48}   color="#6DB33F" /> },
   { name: "MySQL",       icon: <SiMysql size={48}        color="#4479A1" /> },
@@ -52,7 +54,7 @@ const SkillsSection = () => (
             transition={{ delay: i * 0.05 }}
             whileHover={{ y: -2 }}
             className="glass-card-hover flex flex-col items-center justify-center gap-3 p-6 cursor-default"
-            style={{ minHeight: "130px" }}
+            style={{ minHeight: "157px" }}
           >
             <div>{skill.icon}</div>
             <span className="text-sm font-semibold text-foreground text-center">{skill.name}</span>
