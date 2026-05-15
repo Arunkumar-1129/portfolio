@@ -41,7 +41,7 @@ const HeroSection = () => {
             </p>
 
             <p className="text-muted-foreground text-base md:text-lg mb-8 max-w-lg leading-relaxed">
-              2nd-year ECE student focused on Full Stack Development and AI,
+              Pre-final year ECE student focused on Full Stack Development and AI,
               building scalable web applications that solve real-world problems.
             </p>
 
