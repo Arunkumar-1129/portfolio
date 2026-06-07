@@ -27,7 +27,7 @@ const experiences = [
   {
     title: "Product Management Program",
     organization: "PayPal - Career Academy Program",
-    year: "2025",
+    year: "2026",
     responsibilities: [
       "Completed product management training with real-world case studies",
       "Worked on user problem discovery and requirement definition",
