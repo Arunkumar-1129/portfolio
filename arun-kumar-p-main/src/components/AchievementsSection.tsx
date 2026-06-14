@@ -13,6 +13,7 @@ const certifications = [
 
 const achievements = [
   { title: "Winner – Anokha'26 Process Warzone", detail: "₹20,000 prize", icon: "🏆" },
+  { title: "Runner Up – Project Expo 2026", detail: "", icon: "🥈" },
   { title: "Gateway 2k'25 Hackathon", detail: "Achievement", icon: "🚀" },
   { title: "HackWithUttarPradesh Finalist", detail: "Top 300 Teams India", icon: "🔥" },
   { title: "PEC Hacks Finalist", detail: "National Level", icon: "⚡" },
