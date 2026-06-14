@@ -5,7 +5,9 @@
 @tailwind utilities;
 
 @layer base {
-  :root {
+  /* Default/Blue Theme variables on root */
+  :root,
+  .theme-blue {
     --background: 222 47% 6%;
     --foreground: 210 40% 96%;
 
@@ -55,6 +57,159 @@
     --shadow-cyan: 0 0 30px -5px hsl(190 100% 50% / 0.3);
     --shadow-card: 0 8px 32px -8px hsl(222 47% 4% / 0.5);
   }
+
+  .theme-green {
+    --background: 140 40% 5%;
+    --foreground: 140 20% 96%;
+
+    --card: 140 30% 8%;
+    --card-foreground: 140 20% 96%;
+
+    --popover: 140 30% 8%;
+    --popover-foreground: 140 20% 96%;
+
+    --primary: 142 70% 50%;
+    --primary-foreground: 140 40% 5%;
+
+    --secondary: 140 30% 14%;
+    --secondary-foreground: 140 20% 96%;
+
+    --muted: 140 30% 10%;
+    --muted-foreground: 140 15% 55%;
+
+    --accent: 142 70% 50%;
+    --accent-foreground: 140 40% 5%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 140 20% 98%;
+
+    --border: 140 20% 14%;
+    --input: 140 20% 14%;
+    --ring: 142 70% 50%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 140 30% 7%;
+    --sidebar-foreground: 140 20% 96%;
+    --sidebar-primary: 142 70% 50%;
+    --sidebar-primary-foreground: 140 40% 5%;
+    --sidebar-accent: 140 30% 12%;
+    --sidebar-accent-foreground: 140 20% 96%;
+    --sidebar-border: 140 20% 14%;
+    --sidebar-ring: 142 70% 50%;
+
+    /* Custom tokens */
+    --cyan-glow: 142 70% 50%;
+    --navy-deep: 140 40% 3%;
+    --glass-bg: 140 30% 8%;
+    --glass-border: 140 20% 16%;
+    --gradient-cyan: linear-gradient(135deg, hsl(142 70% 50%), hsl(150 90% 40%));
+    --gradient-hero: linear-gradient(135deg, hsl(140 40% 3%), hsl(140 30% 8%));
+    --shadow-cyan: 0 0 30px -5px hsl(142 70% 50% / 0.3);
+    --shadow-card: 0 8px 32px -8px hsl(140 40% 3% / 0.5);
+  }
+
+  .theme-orange {
+    --background: 24 40% 5%;
+    --foreground: 24 20% 96%;
+
+    --card: 24 30% 8%;
+    --card-foreground: 24 20% 96%;
+
+    --popover: 24 30% 8%;
+    --popover-foreground: 24 20% 96%;
+
+    --primary: 32 95% 55%;
+    --primary-foreground: 24 40% 5%;
+
+    --secondary: 24 30% 14%;
+    --secondary-foreground: 24 20% 96%;
+
+    --muted: 24 30% 10%;
+    --muted-foreground: 24 15% 55%;
+
+    --accent: 32 95% 55%;
+    --accent-foreground: 24 40% 5%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 24 20% 98%;
+
+    --border: 24 20% 14%;
+    --input: 24 20% 14%;
+    --ring: 32 95% 55%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 24 30% 7%;
+    --sidebar-foreground: 24 20% 96%;
+    --sidebar-primary: 32 95% 55%;
+    --sidebar-primary-foreground: 24 40% 5%;
+    --sidebar-accent: 24 30% 12%;
+    --sidebar-accent-foreground: 24 20% 96%;
+    --sidebar-border: 24 20% 14%;
+    --sidebar-ring: 32 95% 55%;
+
+    /* Custom tokens */
+    --cyan-glow: 32 95% 55%;
+    --navy-deep: 24 40% 3%;
+    --glass-bg: 24 30% 8%;
+    --glass-border: 24 20% 16%;
+    --gradient-cyan: linear-gradient(135deg, hsl(32 95% 55%), hsl(20 90% 45%));
+    --gradient-hero: linear-gradient(135deg, hsl(24 40% 3%), hsl(24 30% 8%));
+    --shadow-cyan: 0 0 30px -5px hsl(32 95% 55% / 0.3);
+    --shadow-card: 0 8px 32px -8px hsl(24 40% 3% / 0.5);
+  }
+
+  .theme-red {
+    --background: 0 0% 3%;
+    --foreground: 0 0% 95%;
+
+    --card: 0 0% 6%;
+    --card-foreground: 0 0% 95%;
+
+    --popover: 0 0% 6%;
+    --popover-foreground: 0 0% 95%;
+
+    --primary: 0 100% 50%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 0 0% 12%;
+    --secondary-foreground: 0 0% 95%;
+
+    --muted: 0 0% 10%;
+    --muted-foreground: 0 0% 50%;
+
+    --accent: 0 100% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 15%;
+    --input: 0 0% 15%;
+    --ring: 0 100% 50%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 5%;
+    --sidebar-foreground: 0 0% 95%;
+    --sidebar-primary: 0 100% 50%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 0 0% 10%;
+    --sidebar-accent-foreground: 0 0% 95%;
+    --sidebar-border: 0 0% 15%;
+    --sidebar-ring: 0 100% 50%;
+
+    /* Custom tokens */
+    --cyan-glow: 0 100% 50%;
+    --navy-deep: 0 0% 2%;
+    --glass-bg: 0 0% 6%;
+    --glass-border: 0 0% 16%;
+    --gradient-cyan: linear-gradient(135deg, hsl(0 100% 50%), hsl(0 85% 40%));
+    --gradient-hero: linear-gradient(135deg, hsl(0 0% 2%), hsl(0 0% 6%));
+    --shadow-cyan: 0 0 30px -5px hsl(0 100% 50% / 0.4);
+    --shadow-card: 0 8px 32px -8px hsl(0 0% 0% / 0.6);
+  }
 }
 
 @layer base {
@@ -65,6 +220,7 @@
   body {
     @apply bg-background text-foreground font-sans antialiased;
     font-family: 'Inter', system-ui, sans-serif;
+    transition: background-color 0.4s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.4s cubic-bezier(0.4, 0, 0.2, 1), color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   html {

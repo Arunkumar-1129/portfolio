@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import ThemeSwitcher from "./ThemeSwitcher";
 
 const navLinks = [
   { label: "Home", href: "#home" },
@@ -27,14 +28,13 @@ const Navbar = () => {
     <motion.nav
       initial={{ y: -100 }}
       animate={{ y: 0 }}
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
           ? "bg-background/80 backdrop-blur-xl border-b border-border"
           : "bg-transparent"
-      }`}
+        }`}
     >
       <div className="container-narrow flex items-center justify-between h-16 md:h-20">
-        {/* Desktop */}
+        {/* Desktop Links */}
         <div className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
             <a
@@ -45,6 +45,11 @@ const Navbar = () => {
               {link.label}
             </a>
           ))}
+        </div>
+
+        {/* Desktop Theme Switcher */}
+        <div className="hidden md:block">
+          <ThemeSwitcher />
         </div>
 
         {/* Mobile toggle */}
@@ -76,6 +81,11 @@ const Navbar = () => {
                   {link.label}
                 </a>
               ))}
+              {/* Mobile Theme Switcher */}
+              <div className="flex items-center justify-between border-t border-border pt-4 mt-2">
+                <span className="text-sm text-muted-foreground font-medium">Switch Theme</span>
+                <ThemeSwitcher />
+              </div>
             </div>
           </motion.div>
         )}

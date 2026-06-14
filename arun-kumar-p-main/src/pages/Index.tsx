@@ -9,10 +9,12 @@ import AchievementsSection from "@/components/AchievementsSection";
 import CodingProfiles from "@/components/CodingProfiles";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
+import VantaBackground from "@/components/VantaBackground";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen relative" style={{ background: "transparent" }}>
+      <VantaBackground />
       <Navbar />
       <HeroSection />
       <AboutSection />
