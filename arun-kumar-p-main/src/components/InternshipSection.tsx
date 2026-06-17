@@ -3,6 +3,48 @@ import { Briefcase } from "lucide-react";
 
 const experiences = [
   {
+    title: "Product Management Program",
+    organization: "PayPal - Career Academy Program",
+    year: "2026",
+    responsibilities: [
+      "Completed product management training with real-world case studies",
+      "Worked on user problem discovery and requirement definition",
+      "Practiced feature prioritization and roadmap planning",
+      "Performed market and competitor analysis for product decisions",
+      "Collaborated on product strategy and presentation exercises",
+    ],
+    techStack: [
+      "Product Strategy",
+      "User Research",
+      "Roadmapping",
+      "Market Analysis",
+      "Prioritization",
+    ],
+  },
+  {
+  title: "DevOps Intern",
+  organization: "VSphere Technologies",
+  year: "2026",
+  responsibilities: [
+    "Containerized applications for consistent deployment environments",
+    "Automated software delivery through CI/CD pipelines",
+    "Orchestrated containerized workloads using Kubernetes",
+    "Implemented GitOps-based deployment workflows with Argo CD",
+    "Streamlined deployment and infrastructure management processes",
+  ],
+  techStack: [
+    "Docker",
+    "Kubernetes",
+    "Git",
+    "GitLab",
+    "GitLab CI/CD",
+    "Argo CD",
+    "Linux",
+    "YAML",
+
+  ],
+},
+  {
     title: "AI & Web Development Intern",
     organization: "NIELIT Calicut",
     year: "2025",
@@ -24,25 +66,7 @@ const experiences = [
       "PostgreSQL",
     ],
   },
-  {
-    title: "Product Management Program",
-    organization: "PayPal - Career Academy Program",
-    year: "2026",
-    responsibilities: [
-      "Completed product management training with real-world case studies",
-      "Worked on user problem discovery and requirement definition",
-      "Practiced feature prioritization and roadmap planning",
-      "Performed market and competitor analysis for product decisions",
-      "Collaborated on product strategy and presentation exercises",
-    ],
-    techStack: [
-      "Product Strategy",
-      "User Research",
-      "Roadmapping",
-      "Market Analysis",
-      "Prioritization",
-    ],
-  },
+  
 ];
 
 const InternshipSection = () => (
