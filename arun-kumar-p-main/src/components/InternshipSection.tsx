@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Briefcase } from "lucide-react";
+import { SiGit, SiGitlab } from "react-icons/si";
 
 const experiences = [
   {
@@ -33,6 +34,7 @@ const experiences = [
     "Streamlined deployment and infrastructure management processes",
   ],
   techStack: [
+    
     "Docker",
     "Kubernetes",
     "Git",

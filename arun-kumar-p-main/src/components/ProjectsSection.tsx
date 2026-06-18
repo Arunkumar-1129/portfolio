@@ -14,12 +14,12 @@ const features = [
 
 const otherProjects = [
   {
-    title: "Railway Track Damage Detection System",
-    year: "2024",
-    desc: "Ultrasonic guided wave crack detection with non-destructive monitoring using Arduino and sensors.",
-    tech: ["HTML", "CSS", "JavaScript", "Arduino UNO"],
-    codeUrl: "https://github.com/Arunkumar-1129/Project_Level1",
-  },
+  title: "NeoGuard – Neonatal Vital Monitoring System",
+  year: "2026",
+  desc: "Intelligent NICU monitoring system with real-time vital tracking, false alarm reduction, and critical alert notifications.",
+  tech: ["React", "FastAPI", "Python", "ESP32", "JWT", "WebSocket"],
+  codeUrl: "https://github.com/Arunkumar-1129/NeoGaurd.git"
+},
   {
     title: "Hostel Room Allotment & Maintenance System",
     year: "2025",
