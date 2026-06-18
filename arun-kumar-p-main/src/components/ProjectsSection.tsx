@@ -20,6 +20,20 @@ const otherProjects = [
   tech: ["React", "FastAPI", "Python", "ESP32", "JWT", "WebSocket"],
   codeUrl: "https://github.com/Arunkumar-1129/NeoGaurd.git"
 },
+{
+  title: "StillPaid – Parametric Insurance Platform",
+  year: "2026",
+  desc: "Built an AI-powered insurance platform that safeguards gig workers against income loss through automated event-based claims and instant payouts.",
+  tech: ["React", "Redux Toolkit", "Python", "Telegram API"],
+  codeUrl: "https://github.com/Arunkumar-1129/guidewire.git"
+},
+{
+  title: "CraveBite – Food Ordering Platform",
+  year: "2026",
+  desc: "Production-ready food ordering application with role-based access control, real-time cart management, and secure RESTful APIs.",
+  tech: ["React", "Spring Boot", "MySQL", "JWT"],
+  codeUrl: "https://github.com/Arunkumar-1129/FoodOrderingPlatform.git"
+},
   {
     title: "Hostel Room Allotment & Maintenance System",
     year: "2025",
