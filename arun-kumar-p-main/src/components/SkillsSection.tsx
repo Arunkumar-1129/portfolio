@@ -48,41 +48,39 @@ const tools = [
       className="w-12 h-12"
     />  )},
 {  name: "Argo CD",  icon: <SiArgo size={48} color="#EF7B4D" />},
-{
-  name: "MobaXterm",
-  icon: (
+
+{  name: "MobaXterm",  icon: (
     <img
       src={xtermLogo}
       alt="MobaXterm"
       className="w-12 h-12 object-contain"
-    />
-  )
-},
+    />  )},
+    
 {  name: "Postman",  icon: <SiPostman size={48} color="#FF6C37" />},
+
 {  name: "IntelliJ IDEA",  icon: (
       <img
       src="https://resources.jetbrains.com/storage/products/company/brand/logos/IntelliJ_IDEA_icon.svg"
       alt="IntelliJ IDEA"
       className="w-12 h-12"
     />  )},
+
 {  name: "Roboflow",  icon: (
     <img
       src="https://cdn.simpleicons.org/roboflow"
       alt="Roboflow"
       className="w-12 h-12"
     />  )},
+
     { name: "Firebase", icon: <SiFirebase size={48}  color="#FFCA28" /> },
   { name: "Excel",    icon: <FaFileExcel size={48} color="#217346" /> },
-  {
-  name: "CapCut",
-  icon: (
+
+  {  name: "CapCut",  icon: (
     <img
       src={capcutLogo}
       alt="CapCut"
       className="w-12 h-12 object-contain"
-    />
-  )
-},
+    />  )},
 
   { name: "Canva",    icon: <SiCanva size={48}     color="#00C4CC" /> },
 ];
