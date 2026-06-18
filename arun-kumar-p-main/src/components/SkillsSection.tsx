@@ -9,6 +9,8 @@ import { FaGithub } from "react-icons/fa";
 import { SiPostman } from "react-icons/si";
 import xtermLogo from "@/assets/xterm_logo.png";
 import capcutLogo from "@/assets/capcut.jpg";
+import { SiVercel } from "react-icons/si";
+import { SiRender } from "react-icons/si";
 
 const skills = [
   { name: "HTML",        icon: <SiHtml5 size={48}      color="#e76d1b" /> },
@@ -55,7 +57,7 @@ const tools = [
       alt="MobaXterm"
       className="w-12 h-12 object-contain"
     />  )},
-    
+
 {  name: "Postman",  icon: <SiPostman size={48} color="#FF6C37" />},
 
 {  name: "IntelliJ IDEA",  icon: (
@@ -73,7 +75,8 @@ const tools = [
     />  )},
 
     { name: "Firebase", icon: <SiFirebase size={48}  color="#FFCA28" /> },
-  { name: "Excel",    icon: <FaFileExcel size={48} color="#217346" /> },
+ {  name: "Vercel",  icon: <SiVercel size={42} color="#FFFFFF" />},
+ {  name: "Render",  icon: <SiRender size={48} color="#ffffff" />},
 
   {  name: "CapCut",  icon: (
     <img
