@@ -37,8 +37,8 @@ const themeColors: Record<string, any> = {
     backgroundColor: 0x060d1b,
   },
   "theme-green": {
-    color: 0x10b981,
-    backgroundColor: 0x05140b,
+    color: 0x39ff00,
+    backgroundColor: 0x050d02,
   },
   "theme-orange": {
     color: 0xf97316,
@@ -77,7 +77,7 @@ const VantaBackground = () => {
         }
 
         if (theme === "theme-blue" || theme === "theme-green") {
-          const particleColor = theme === "theme-blue" ? "#00f2fe" : "#10b981";
+          const particleColor = theme === "theme-blue" ? "#00f2fe" : "#39ff00";
           await loadScript("https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js");
           if (cancelled || !vantaRef.current || !window.particlesJS) return;
           

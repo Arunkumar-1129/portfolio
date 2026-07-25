@@ -14,6 +14,13 @@ const features = [
 
 const otherProjects = [
   {
+  title: "Visual Learn",
+  year: "2026",
+  desc: "AI-powered platform for 3D concept visualization with AI explanations, a creator marketplace, and classroom management for educators.",
+  tech: [  "React","Three.js","React Three Fiber","Express.js","MongoDB", "JWT","Gemini API"],
+  codeUrl: "https://github.com/Arunkumar-1129/visual-learn"
+},
+  {
   title: "NeoGuard – Neonatal Vital Monitoring System",
   year: "2026",
   desc: "Intelligent NICU monitoring system with real-time vital tracking, false alarm reduction, and critical alert notifications.",
@@ -42,13 +49,6 @@ const otherProjects = [
     codeUrl: "https://github.com/Arunkumar-1129/HostelRoomAllotment",
   },
   {
-    title: "Pipeline Leakage Detection",
-    year: "2025",
-    desc: "Non-intrusive pipeline leakage detection system using flow sensors, integrated with a web application for real-time monitoring and data visualization.",
-    tech: ["HTML", "CSS", "JavaScript", "Arduino IDE", "Leaflet"],
-    codeUrl: "https://github.com/Arunkumar-1129/pipeline_leakage_detection",
-  },
-  {
     title: "Fire Detection System Using Deep Learning",
     year: "2025",
     desc: "Intelligent fire detection system using deep learning-based object detection, integrated with a web application for real-time monitoring and automated alerting.",
@@ -65,10 +65,10 @@ const ProjectsSection = () => (
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
       >
-        <h2 className="text-3xl md:text-4xl font-bold mb-2">
+        <h2 className="text-3xl md:text-5xl font-extrabold mb-2 text-center">
           Featured <span className="text-gradient">Projects</span>
         </h2>
-        <div className="w-16 h-1 bg-primary rounded-full mb-12" />
+        <div className="w-16 h-1 bg-primary rounded-full mb-12 mx-auto" />
       </motion.div>
 
       {/* Featured Project */}

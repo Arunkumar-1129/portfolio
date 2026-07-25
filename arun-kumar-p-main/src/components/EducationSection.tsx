@@ -6,7 +6,7 @@ const education = [
     degree: "B.E Electronics & Communication Engineering",
     institution: "Sri Eshwar College of Engineering",
     period: "2024 – 2028",
-    score: "CGPA: 8.43",
+    score: "CGPA: 8.59",
   },
   {
     degree: "Higher Secondary Certificate (HSC)",
@@ -30,10 +30,10 @@ const EducationSection = () => (
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
       >
-        <h2 className="text-3xl md:text-4xl font-bold mb-2">
-          <span className="text-gradient">Education</span>
+        <h2 className="text-3xl md:text-5xl font-extrabold mb-2 text-center">
+          Academic<span className="text-gradient"> Journey</span>
         </h2>
-        <div className="w-16 h-1 bg-primary rounded-full mb-12" />
+        <div className="w-16 h-1 bg-primary rounded-full mb-12 mx-auto" />
       </motion.div>
 
       <div className="relative">
@@ -47,11 +47,10 @@ const EducationSection = () => (
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: i * 0.15 }}
-            className={`relative mb-10 md:w-1/2 pl-16 md:pl-0 ${
-              i % 2 === 0
+            className={`relative mb-10 md:w-1/2 pl-16 md:pl-0 ${i % 2 === 0
                 ? "md:pr-12 md:text-right"
                 : "md:ml-auto md:pl-12"
-            }`}
+              }`}
           >
             {/* Timeline dot */}
             <div className="absolute left-4 md:left-auto md:right-auto top-2 w-5 h-5 rounded-full border-2 border-primary bg-background z-10"

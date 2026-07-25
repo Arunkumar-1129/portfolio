@@ -118,10 +118,10 @@ const SkillsSection = () => (
         viewport={{ once: true }}
         className="mb-12"
       >
-        <h2 className="text-3xl md:text-4xl font-bold mb-2">
+        <h2 className="text-3xl md:text-5xl font-extrabold mb-2 text-center">
           Technical <span className="text-gradient">Skills</span>
         </h2>
-        <div className="w-16 h-1 bg-primary rounded-full" />
+        <div className="w-16 h-1 bg-primary rounded-full mx-auto" />
       </motion.div>
 
       <SkillGrid items={skills} />
@@ -132,10 +132,10 @@ const SkillsSection = () => (
         viewport={{ once: true }}
         className="mt-16 mb-12"
       >
-        <h2 className="text-3xl md:text-4xl font-bold mb-2">
+        <h2 className="text-3xl md:text-5xl font-extrabold mb-2 text-center">
           Tools & <span className="text-gradient">Platforms</span>
         </h2>
-        <div className="w-16 h-1 bg-primary rounded-full" />
+        <div className="w-16 h-1 bg-primary rounded-full mx-auto" />
       </motion.div>
 
       <SkillGrid items={tools} startDelay={skills.length} />

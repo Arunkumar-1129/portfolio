@@ -14,6 +14,8 @@ const certifications = [
 const achievements = [
   { title: "Winner – Anokha'26 Process Warzone", detail: "₹20,000 prize", icon: "🏆" },
   { title: "Runner Up – Project Expo 2026", detail: "Incubation Exposure", icon: "🥈" },
+  { title: "Top 10 - Google Developer groups Techsprint 2026", detail: "Achievement", icon: "🏅" },
+  { title: "Special Mention - Anna University Kurukshetra'26", detail: "Achievement", icon: "🏅" },
   { title: "Gateway 2k'25 Hackathon", detail: "Achievement", icon: "🚀" },
   { title: "HackWithUttarPradesh Finalist", detail: "Top 300 Teams India", icon: "🔥" },
   { title: "PEC Hacks Finalist", detail: "National Level", icon: "⚡" },
@@ -28,10 +30,10 @@ const AchievementsSection = () => (
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
       >
-        <h2 className="text-3xl md:text-4xl font-bold mb-2">
+        <h2 className="text-3xl md:text-5xl font-extrabold mb-2 text-center">
           <span className="text-gradient">Certifications</span>
         </h2>
-        <div className="w-16 h-1 bg-primary rounded-full mb-10" />
+        <div className="w-16 h-1 bg-primary rounded-full mb-10 mx-auto" />
       </motion.div>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mb-20">
@@ -59,10 +61,10 @@ const AchievementsSection = () => (
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
       >
-        <h2 className="text-3xl md:text-4xl font-bold mb-2">
+        <h2 className="text-3xl md:text-5xl font-extrabold mb-2 text-center">
           <span className="text-gradient">Achievements</span>
         </h2>
-        <div className="w-16 h-1 bg-primary rounded-full mb-10" />
+        <div className="w-16 h-1 bg-primary rounded-full mb-10 mx-auto" />
       </motion.div>
 
       <div className="grid md:grid-cols-2 gap-6">

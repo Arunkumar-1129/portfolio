@@ -36,10 +36,10 @@ const CodingProfiles = () => (
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
       >
-        <h2 className="text-3xl md:text-4xl font-bold mb-2">
+        <h2 className="text-3xl md:text-5xl font-extrabold mb-2 text-center">
           Coding <span className="text-gradient">Profiles</span>
         </h2>
-        <div className="w-16 h-1 bg-primary rounded-full mb-12" />
+        <div className="w-16 h-1 bg-primary rounded-full mb-12 mx-auto" />
       </motion.div>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">

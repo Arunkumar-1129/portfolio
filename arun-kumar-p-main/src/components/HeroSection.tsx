@@ -90,7 +90,7 @@ const HeroSection = () => {
                 transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
                 className="absolute -bottom-4 -left-4 glass-card px-4 py-2 flex items-center gap-2"
               >
-                <span className="text-primary font-bold text-lg">8.43</span>
+                <span className="text-primary font-bold text-lg">8.59</span>
                 <span className="text-sm text-muted-foreground">CGPA</span>
               </motion.div>
               <motion.div
